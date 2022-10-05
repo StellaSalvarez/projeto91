@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adivinhe a Palavra</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+<h3 id="nomeJogador1"></h3><span id="jogador1pontos"></span>
+<br>
+<h3 id="nomeJogador2"></h3><span id="jogador1pontos"></span>
+<div class="container">
+	<center>
+		<h2 style="color: white;">Quiz da Matemática</h2>
+        <h3 id="pergunta"></h3>
+        <h3 id="resposta"></h3>
+        <div id="output" class="col-lg-6" style="background-color:white ;"></div>
+
+		<br>
+		<br>
+
+		<label>Envie o primeiro número: <b style="color: blue">Escreva o número neste input:</b></label>
+        <input type="text" id="n1input" class="form-control" placeholder="Coloque o número aqui! =D">
+		<br>
+        <label>Envie o segundo número: <b style="color: blue">Escreva o número neste input:</b></label>
+        <input type="text" id="n2input" class="form-control" placeholder="Coloque o número aqui! =D">
+		<br>
+        <button onclick="send()" id="btnEnviarNumero" class="btn btn-success" style="width: 10%;">Enviar</button>
+	</center>
+</div>
+
+<script src="gamePage.js"></script>
+</body>
+</html>

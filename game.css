@@ -1,0 +1,16 @@
+body
+{
+	background: rgb(255, 105, 105);
+}
+
+#nomeJogador1, #nomeJogador2
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#output{
+	background-color: white;
+}
+#pergunta{
+	background-color: rgb(254, 188, 188);
+}
